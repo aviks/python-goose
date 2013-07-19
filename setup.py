@@ -11,11 +11,11 @@ setup(name='goose',
     keywords='',
     author='Xavier Grangier',
     author_email='grangier@gmail.com',
-    url='https://github.com/xgdlm/python-goose',
+    url='https://github.com/grangier/python-goose',
     license='Apache',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=['PIL', 'lxml', 'cssselect', 'jieba'],
+    install_requires=['Pillow', 'lxml', 'cssselect', 'jieba', 'beautifulsoup'],
     test_suite="tests"
 )
