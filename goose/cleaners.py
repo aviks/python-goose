@@ -39,7 +39,7 @@ class DocumentCleaner(object):
         "|communitypromo|runaroundLeft|subscribe|vcard|articleheadings"
         "|date|^print$|popup|author-dropdown|tools|socialtools|byline"
         "|konafilter|KonaFilter|breadcrumbs|^fn$|wp-caption-text"
-        "|legende|ajoutVideo|timestamp|quotePeekContainer"
+        "|legende|ajoutVideo|timestamp|quotePeekContainer|col-quarter|hidden"
         )
         self.regexp_namespace = "http://exslt.org/regular-expressions"
         self.nauthy_ids_re = "//*[re:test(@id, '%s', 'i')]" % self.remove_nodes_re
